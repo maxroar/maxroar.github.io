@@ -12,10 +12,12 @@
     <!-- set the default content width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- jquery cdn -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- templates js file -->
+    <script type="text/javascript" src="templates.js"></script>
     <!-- js file link -->
     <script src="script.js" type="text/javascript" charset="utf-8"></script>
   </head>
@@ -29,13 +31,12 @@
           <div id="headText" class="col-xs-9 col-sm-9 col-md-6 col-lg-6">
             <h1>Max Rohrer <small>Full Stack Developer</small></h1>
           </div>
-
           <div class="col-xs-9-offset-3 col-sm-9-offset-3 col-md-8-offset-4 col-lg-4">
             <ul>
-              <li class="col-xs-2 col-md-3"><button class="btn btn-primary navButton" id="htmlButton">HTML</button></li>
-              <li class="col-xs-2 col-sm-2 col-md-3"><button class="btn btn-primary navButton" id="pythonButton">Python</button></li>
-              <li class="col-xs-2 col-sm-2 col-md-3"><button class="btn btn-primary navButton" id="meanButton">MEAN</button></li>
-              <li class="col-xs-2 col-sm-2 col-md-3"><button class="btn btn-primary navButton" id="cSharpButton">C#.Net</button></li>
+              <li class="col-xs-2 col-md-3"><button class="btn btn-primary btn-block navButton" data-sub-menu="0" data-btn-id="main0">HTML</button></li>
+              <li class="col-xs-2 col-sm-2 col-md-3"><button class="btn btn-primary btn-block navButton" id="pythonButton" data-btn-id="main1">Python</button></li>
+              <li class="col-xs-2 col-sm-2 col-md-3"><button class="btn btn-primary btn-block navButton" id="meanButton" data-btn-id="main2">MEAN</button></li>
+              <li class="col-xs-2 col-sm-2 col-md-3"><button class="btn btn-primary btn-block navButton" id="cSharpButton" data-btn-id="main3">C#.Net</button></li>
             </ul>
           </div>
         </div>
@@ -43,19 +44,19 @@
       <div class="row">
         <div id="contact" class="col-xs-3 col-md-2">
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="https://github.com/maxroar" alt="link to gitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://github.com/maxroar" alt="link to gitHub" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="https://www.freecodecamp.com/maxroar" alt="link to free code camp"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+            <a href="https://www.freecodecamp.com/maxroar" alt="link to free code camp" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="http://codepen.io/maxroar/" alt="link to codepen"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            <a href="http://codepen.io/maxroar/" alt="link to codepen" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="https://www.linkedin.com/in/maxrohrer" alt="link to linkedIn profile"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/maxrohrer" alt="link to linkedIn profile" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="https://twitter.com/maxrohrer90" alt="link to twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/maxrohrer90" alt="link to twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <a href="mailto:mxrohrer@gmail.com" alt="send me an email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -66,24 +67,9 @@
             <li class="col-xs-12"><button id="contactInfo" class="btn btn-info btn-block">Contact</button></li>
           </ul>
         </div>
-        <div id="content" class="col-xs-9 col-md-10">
-          <div id="htmlContent">
-            <ul>
-              <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton">Projects</button></li>
-              <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton">Coding Dojo</button></li>
-              <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton">FreeCodeCamp</button></li>
-              <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton">JS Functions</button></li>
-            </ul>
-          </div>
-          <div id="pythonContent">
-          </div>
-          <div id="meanContent">
-          </div>
-          <div id="cSharpContent">
-          </div>
+        <div id="content" class="col-xs-9 col-md-10 mainContent">
         </div>
       </div>
-
     </div>
   </body>
 </html>
