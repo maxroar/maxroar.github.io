@@ -39,38 +39,38 @@ var htmlProjects = [
       [`
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h2>Databases</h2>
-          <img src="img/HTML/CodingDojo/databases.png" alt="picture of javascript basics">
+          <img src="img/HTML/CodingDojo/databases.png" alt="picture of databases page">
           <p>This is a static non-functional site built with HTML and CSS. The purpose of this assignment was to recreate a given site using HTML and CSS.</p>
         </div>
         `],
         [`
           <div class="col-xs-12 col-sm-6 col-md-4">
             <h2>Python</h2>
-            <img src="img/HTML/CodingDojo/python.png" alt="picture of javascript basics">
+            <img src="img/HTML/CodingDojo/python.png" alt="picture of python page">
             <p>This is a static non-functional site built with HTML and CSS. The purpose of this assignment was to recreate a given site using HTML and CSS.</p>
           </div>
           `],
-          [`
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <h2>User Table</h2>
-              <img src="img/HTML/CodingDojo/python.png" alt="picture of javascript basics">
-              <p>This is a front end site built with HTML, CSS, and Javascript/jQuery. The purpose of this assignment was to allow users to add a contact to a table based on form input.</p>
-            </div>
-            `],
             [`
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <h2>Contact Card</h2>
-                <img src="img/HTML/CodingDojo/python.png" alt="picture of javascript basics">
+                <img src="img/HTML/CodingDojo/contactCards.png" alt="picture of contact cards">
                 <p>This is a front end site built with HTML, CSS, and Javascript/jQuery. The purpose of this assignment was to allow users to generate a contact card that would dynamically appear when a form is filled out.</p>
               </div>
               `],
               [`
                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <h2>Game of Thrones</h2>
-                  <img src="img/HTML/CodingDojo/python.png" alt="picture of javascript basics">
+                  <img src="img/HTML/CodingDojo/gameOfThrones.png" alt="picture of game of thrones api site">
                   <p>This is a front end site built with HTML, CSS, Javascript/jQuery, and <a href="https://anapioficeandfire.com/" alt="GoT api">an API of Ice and Fire</a>. This is a dynamic site that uses a Game of Thrones API to display info about the house that is clicked.</p>
                 </div>
-                `]],
+                `],
+                [`
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h2>Aykman</h2>
+                    <img src="img/HTML/CodingDojo/aykman.png" alt="picture of aykman">
+                    <p>This is a front end site built with HTML, CSS, and Javascript/jQuery. This is a work in progress for a pacman style game called "Aykman" where the user plays as Dan Aykroid and must avoid getting abducted by aliens.</p>
+                  </div>
+                  `]],
     [[`
       <div class="col-xs-12 col-sm-6 col-md-4">
         <h2>Weather App</h2>
