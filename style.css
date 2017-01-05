@@ -83,3 +83,23 @@ img{
 .subNavButton{
   margin-bottom: 10px;
 }
+.htmlSubButtons button{
+  background-color: #ffc948;
+  border: 1px solid #cb9004;
+}
+.pythonSubButtons button{
+  background-color: #653fb2;
+  border: 1px solid #38108b;
+}
+.meanSubButtons button{
+  background-color: #ffe648;
+  border: 1px solid #cbb004;
+}
+.cSharpSubButtons button{
+  background-color: #4256b2;
+  border: 1px solid #13288a;
+}
+#main0nav button{
+  color: white;
+  font-weight: 600;
+}

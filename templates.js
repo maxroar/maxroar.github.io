@@ -7,7 +7,7 @@ var underConstruction = `<div class="col-xs-12 col-sm-6 col-md-4">
 
 var htmlButtons = `
 <div class="row">
-  <div id="main0nav">
+  <div id="main0nav" class="htmlSubButtons">
     <ul>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
@@ -81,7 +81,7 @@ var htmlProjects = [
     [[underConstruction]]
 ];
 var pythonButtons = `<div class="row">
-  <div id="main0nav">
+  <div id="main0nav" class="pythonSubButtons">
     <ul>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
@@ -98,7 +98,7 @@ var pythonButtons = `<div class="row">
 var pythonProjects = [[[underConstruction]],[[underConstruction]],[[underConstruction]],[[underConstruction]]];
 
 var meanButtons = `<div class="row">
-  <div id="main0nav">
+  <div id="main0nav" class="meanSubButtons">
     <ul>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
@@ -115,7 +115,7 @@ var meanButtons = `<div class="row">
 var meanProjects = [[[underConstruction]],[[underConstruction]],[[underConstruction]],[[underConstruction]]];
 
 var cSharpButtons = `<div class="row">
-  <div id="main0nav">
+  <div id="main0nav" class="cSharpSubButtons">
     <ul>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
       <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
