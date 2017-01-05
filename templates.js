@@ -129,3 +129,9 @@ var cSharpButtons = `<div class="row">
   </div>
 </div>`;
 var cSharpProjects = [[[underConstruction]],[[underConstruction]],[[underConstruction]],[[underConstruction]]];
+
+var aboutMe = `<div class="col-xs-12 subContent">
+  <h2>About Me</h2>
+  <p>I am a full stack developer and love learning new technologies and more efficient ways to write code. Since a class I took in 2009, I have been intrigued by programming and being able to build something with nothing but a text editor. After graduating from University of Phoenix in May 2014 I realized that college had taught me a lot of theory but I did not have much actual coding experience. After working in software quality assurance for 2.5 years, I decided it was time to leave my job to pursue programming full time. I researched multiple coding bootcamps and ended up deciding on <a href="http://www.codingdojo.com" alt="Coding Dojo website">Coding Dojo</a>. I hopped on a plane to Seattle and have been learning Python/Django, MEAN, and C#.Net stacks. While I am not working on projects for Coding Dojo, I spend much of my free time researching frameworks that can make my code simpler and faster to write, or researching ways to streamline my workflow (such as creating personal Bash functions to save me 5 seconds here and there for commands I use frequently).</p>
+  <p>The majority of the content displayed here has been completed at Coding Dojo, but as time goes on I will continue to update this site with personal side-projects, contract work, and any other code related work I may happen to do in my free time.</p>
+  </div>`

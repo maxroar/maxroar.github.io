@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  $('.mainContent').html(aboutMe);
+
   $('.navButton').on('click', function(){
     var subMenuID = $(this).data('sub-menu');
     var subNav = '';
@@ -37,5 +39,8 @@ $(document).ready(function(){
       }
       $('.subContent').html(htmlStr);
     });
+  });
+  $('#aboutMe').on('click', function(){
+    $('.mainContent').html(aboutMe);
   });
 });
