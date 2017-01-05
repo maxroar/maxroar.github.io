@@ -9,10 +9,10 @@ var htmlButtons = `
 <div class="row">
   <div id="main0nav">
     <ul>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="0">Projects</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="3">JS Functions</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="3">JS Functions</button></li>
     </ul>
   </div>
 </div>
@@ -83,10 +83,10 @@ var htmlProjects = [
 var pythonButtons = `<div class="row">
   <div id="main0nav">
     <ul>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="0">Projects</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="3">Python Functions</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="3">Python Functions</button></li>
     </ul>
   </div>
 </div>
@@ -100,10 +100,10 @@ var pythonProjects = [[[underConstruction]],[[underConstruction]],[[underConstru
 var meanButtons = `<div class="row">
   <div id="main0nav">
     <ul>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="0">Projects</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="3">JS Functions</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="3">JS Functions</button></li>
     </ul>
   </div>
 </div>
@@ -117,10 +117,10 @@ var meanProjects = [[[underConstruction]],[[underConstruction]],[[underConstruct
 var cSharpButtons = `<div class="row">
   <div id="main0nav">
     <ul>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="0">Projects</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
-      <li class="col-xs-6 col-sm-3"><button class="btn btn-primary btn-block subNavButton" data-sub-btn="3">C# Functions</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="0">Projects</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="1">Coding Dojo</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="2">FreeCodeCamp</button></li>
+      <li class="col-xs-6 col-sm-3"><button class="btn btn-block subNavButton" data-sub-btn="3">C# Functions</button></li>
     </ul>
   </div>
 </div>

@@ -1,3 +1,28 @@
+/*-------COLOR SCHEME---------
+html- main- #f8b71a
+html- light1- #ffc948
+html- light2- #ffd571
+html- dark1- #cb9004
+html- dark2- #a07100
+
+python- main- #4e21aa
+python- light1- #653fb2
+python- light2- #8463c6
+python- dark1- #38108b
+python- dark2- #2a0a6d
+
+mean- main- #f8da1a
+mean- light1- #ffe648
+mean- light2- #ffec71
+mean- dark1- #cbb004
+mean- dark2- #a08b00
+
+csharp- main- #243ca9
+csharp- light1- #4256b2
+csharp- light2- #6576c6
+csharp- dark1- #13288a
+csharp- dark2- #0c1d6d*/
+
 *{
   margin: 0;
   padding: 0;
@@ -14,4 +39,13 @@ li{
 }
 img{
   width: 100%;
+}
+#mainHtmlButton{
+  background-color: #f8b71a;
+}
+#mainHtmlButton :active{
+  background-color: #cb9004;
+}
+.htmlBack{
+
 }
