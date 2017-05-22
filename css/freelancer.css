@@ -30,6 +30,13 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+a.accordian-head,
+a.accordian-head:hover,
+a.accordian-head:focus,
+a.accordian-head:active{
+  color:#ffffff;
+  text-decoration:none;
+}
 i.blue-icon{
   color:#489FDF;
   font-size:3.5em;

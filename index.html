@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Max Rohrer</title>
+    
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,8 +23,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- fontawesome icons -->
-    <script src="https://use.fontawesome.com/d50142821b.js"></script>
+    <!-- jqueryui -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -83,6 +86,7 @@
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
                         <h1 class="name">Max Rohrer</h1>
+                        <span class="skills">BSIT/Software Engineering</span>
                         <hr class="star-light">
                         <span class="skills">Software Developer - Dog Lover - Beer Connoisseur</span>
                     </div>
@@ -102,11 +106,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <h3><a href="mailto:mxrohrer@gmail.com?Subject=From%20Website" target="_top">mxrohrer@gmail.com</a></h3>
+                    <h3>Please feel free to contact me about technologies, work opportunities, great beer suggestions, or good shows to bingewatch!</h3>
                     <h3>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
+                        <a href="mailto:mxrohrer@gmail.com?Subject=From%20Website" target="_top"><i class="fa fa-envelope contact-icon" aria-hidden="true"></i> mxrohrer@gmail.com</a><hr/>
+                        <a href="https://www.linkedin.com/in/maxrohrer/"><i class="fa fa-linkedin-square contact-icon" aria-hidden="true"></i> LinkedIn</a><hr/>
+                        <a href="https://github.com/maxroar"><i class="fa fa-github-square contact-icon" aria-hidden="true"></i> GitHub</a>
                     </h3>
                 </div>
                 <div class="col-lg-4">
@@ -165,7 +169,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>As Vanilla Ice once said: "If you got a problem, yo I'll solve it." I love finding creative and effecient ways to solve issues and optimize code. Even my workflow is automated by bash scripts, snippets, and boilerplates for anything I have to do more than twice a day. I love learning new technologies, and have the ability to learn new languages and frameworks very quickly.</p>
                 </div>
                 <!-- language icons -->
                 <div class="col-lg-4">
@@ -278,11 +282,6 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
             </div>
         </div>
     </section>
@@ -361,7 +360,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- work experience -->
     <section class="success" id="experience">
         <div class="container">
             <div class="row">
@@ -371,15 +370,49 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div id="accordion">
+                        <h3><a href="#" class="accordian-head">Recursive Thinking (Nov. 2016 - Present)</a></h3>
+                        <div>
+                            <h4>Mentor</h4>
+                            <p>Mentor future Software Engineers and assist with good coding practices, debugging, and learning new technologies.</p>
+                        </div>
+                        <h3><a href="#" class="accordian-head">Coding Dojo (Dec. 2016 - Apr. 2017)</a></h3>
+                        <div>
+                            <h4>Software Developer Trainee</h4>
+                            <p>Completed an intensive (over 1000 hours) project oriented software development program where I learned C#, Python, and JavaScript. Each technology stack lasted one month, and I was able to build enough proficiency to create and deploy a full CRUD application with data validation based off of a given wireframe within 4.5 hours at the end of each month.</p>
+                        </div>
+                        <h3><a href="#" class="accordian-head">2K Games (May 2014 - Oct. 2016)</a></h3>
+                        <div>
+                            <h4>Software QA Tester</h4>
+                            <p>Discovered, documented, and regressed issues in AAA video game titles. Maintained a high bug count on all projects while also organizing and leading multiple group test cases.</p>
+                            <h5>Titles Tested:</h5>
+                            <ul>
+                                <li>Borderlands: The Presequel (2014)</li>
+                                <li>NBA 2K15 (2014)</li>
+                                <li>WWE 2K15 (2014)</li>
+                                <li>Evolve (2015)</li>
+                                <li>NBA 2K16 (2015)</li>
+                                <li>BattleBorn (2016)</li>
+                                <li>NBA 2K17 (2016)</li>
+                                <li>NBA 2KVR (2016)</li>
+                            </ul>
+                        </div>
+                        <h3><a href="#" class="accordian-head">Agere Pharmaceuticals (Jan. 2014 - May 2016)</a></h3>
+                        <div>
+                            <h4>IT Consultant</h4>
+                            <p>Designed, developed, and implemented an internal Wiki to be used for training and documentation organization. Trained key personel on use and maintenance of the Wiki.</p>
+                        </div>
+                        <h3><a href="#" class="accordian-head">Agere Pharmaceuticals (Feb. 2009 - Dec. 2009)</a></h3>
+                        <div>
+                            <h4>Lab Tech</h4>
+                            <p>Designed, developed, and implemented safe gas line for use with various lab equipment. Assisted in research testing and maintained thorough and accurate documentation of test steps and results.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+                    <a href="MaxRohrerResume.pdf" download="Max-Rohrer-Resume" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Resume
                     </a>
                 </div>
             </div>
@@ -390,46 +423,11 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; MaxRohrer.com 2017
                     </div>
                 </div>
             </div>
@@ -682,6 +680,21 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- jqueryui -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#accordion" ).accordion({
+              collapsible: true,
+              heightStyle: "content"
+            });
+        } );
+    </script>
+
+    <!-- fontawesome icons -->
+    <script src="https://use.fontawesome.com/d50142821b.js"></script>
 
 </body>
 
