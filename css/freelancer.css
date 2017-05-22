@@ -30,6 +30,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+ul.modal-list{
+  list-style-type: none;
+}
 a.accordian-head,
 a.accordian-head:hover,
 a.accordian-head:focus,
